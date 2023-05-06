@@ -480,6 +480,10 @@ form button h5 {
 }
 
 @media only screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .head {
     display: flex;
     justify-content: space-between;
@@ -570,12 +574,10 @@ form button h5 {
   }
 
   .headline {
-    width: 40%;
+    width: 50%;
     height: 70%;
-    display: grid;
-    grid-template-rows: 50%  10% 20%;
-    margin-left: 7%;
-    padding-top: 5%;
+    margin-left: 50px;
+    padding-top: 10px;
   }
 
   .headline h1 {
