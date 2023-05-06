@@ -576,8 +576,7 @@ form button h5 {
   .headline {
     width: 50%;
     height: 70%;
-    margin-left: 50px;
-    padding-top: 10px;
+    margin-left: 60px;
   }
 
   .headline h1 {
@@ -587,7 +586,7 @@ form button h5 {
     font-style: normal;
     text-align: left;
     color: #ff6b00;
-    margin-top: -20%;
+    margin-top: 20%;
   }
 
   .headline h2 {
@@ -600,7 +599,6 @@ form button h5 {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin-top: -5%;
   }
 
   .headline p {
@@ -612,7 +610,6 @@ form button h5 {
     line-height: 32px;
     align-items: center;
     color: #f4f5f7;
-    margin-top: 5%;
   }
 
   .social-icons-des {
@@ -875,6 +872,7 @@ form button h5 {
   .field button {
     display: flex;
     align-self: flex-start;
+    cursor: pointer;
   }
 
   .field {
@@ -882,9 +880,12 @@ form button h5 {
   }
 
   .field button:hover {
-    border-color: #f55800;
-    color: #f55800;
+    border: 1px solid #f55800;
     background-color: #fff5e1;
+  }
+
+  .field button h5:hover {
+    color: #f55800;
   }
 
   .field button:disabled {
