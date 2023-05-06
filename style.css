@@ -231,6 +231,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  margin-bottom: 77px;
 }
 
 .project,
@@ -327,12 +328,31 @@ nav {
 
 .about-me-img {
   position: relative;
-  top: 160px;
+  top: 212px;
 }
 
 .experience {
   position: relative;
   top: 230px;
+  width: 100%;
+}
+
+.lang,
+.skills,
+.frameworks {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  justify-content: center;
+}
+
+.lang h4,
+.skills h4,
+.frameworks h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
 }
 
 .experience ul li {
@@ -340,6 +360,10 @@ nav {
   list-style: none;
   text-align: center;
   display: inline;
+}
+
+.languages .exp1 ul li {
+  text-align: center;
 }
 
 .experience ul li h4 {
@@ -668,6 +692,10 @@ form button h5 {
     padding-bottom: 0;
   }
 
+  .projlang {
+    padding: 0;
+  }
+
   .languages {
     width: 50%;
   }
@@ -775,18 +803,32 @@ form button h5 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 35%;
     margin-top: 150px;
     position: none;
     margin-bottom: 10px;
+    padding: 20px;
+    width: 100%;
   }
 
-  .experience ul li h4 {
-    padding-left: 27px;
+  .experience .exp1 ul li {
+    text-align: left;
   }
 
-  .experience ul {
-    padding-right: 10%;
+  .lang,
+  .skills,
+  .frameworks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .lang h4,
+  .skills h4,
+  .frameworks h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
   }
 
   .form-area {
@@ -795,7 +837,11 @@ form button h5 {
   }
 
   .creator {
-    flex-basis: 45%;
+    flex-basis: 40%;
+  }
+
+  .form-area .creator h2 {
+    text-align: start;
   }
 
   .form-right {
