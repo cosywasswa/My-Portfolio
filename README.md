@@ -35,9 +35,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio mobile version] <a name="about-project"></a>
+# 📖 [Portfolio website] <a name="about-project"></a>
 
-**[Portfolio mobile version]** is an html page of a portfolio desktop version that includes achievements, past projects,current project,personal contact information.
+**[Portfolio mobile version first]** is an html page of a portfolio desktop version that includes achievements, past projects,current project,personal contact information.Follow the link to watch the video about my portfolio project
+https://www.loom.com/share/162416e9ac0f466a8e6d1099aad61c52
 
 ## 🛠 Built With <a name="built-with"></a>
 
