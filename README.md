@@ -73,6 +73,7 @@ https://www.loom.com/share/162416e9ac0f466a8e6d1099aad61c52
   **[Diplays projects done]**
   **[Diplays information about the developer]**
   **[Diplays a contact form]**
+  **[Diplays menu when hamburger is clicked]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
