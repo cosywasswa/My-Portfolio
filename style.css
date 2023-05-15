@@ -108,13 +108,16 @@ nav {
 .nav-mobile.active {
   left: 0;
 }
+
 .link {
   margin: 16px 0;
 }
+
 .nav-mobile a {
   color: #fff5e1;
   text-decoration: none;
 }
+
 .lines {
   display: block;
   width: 25px;
@@ -123,20 +126,24 @@ nav {
   transition: all 0.5s ease;
   background-color: #67798e;
 }
+
 .hamburger {
   display: block;
   position: fixed;
   top: 0.99rem;
   right: 0.65rem;
-  z-index: 900;
+  z-index: 1000;
   width: 25px;
 }
+
 .hamburger.active .lines:nth-child(2) {
   opacity: 0;
 }
+
 .hamburger.active .lines:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
+
 .hamburger.active .lines:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
@@ -620,11 +627,12 @@ form button h5 {
     display: block;
   }
 
-  nav .desktop-menu {
+  .desktop-menu {
     display: flex;
     justify-content: space-around;
     list-style: none;
     color: #e5e5e5;
+    visibility: initial;
   }
 
   nav .desktop-menu li {
