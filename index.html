@@ -14,24 +14,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="head">
+    <header class="head" id="head-mobile">
       <h3><a href="index.html">My Logo</a></h3>
-        <img id="union" src="images/Union.png" />
       <nav>
-        <ul class="links">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="nav-mobile">
+          <li><a href="#grid-container" class="link">Portfolio</a></li>
+          <li><a href="#about-me" class="link">About</a></li>
+          <li><a href="#form-area" class="link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="lines"></span>
+          <span class="lines"></span>
+          <span class="lines"></span>
+        </div>
+        <ul class="desktop-menu">
+          <li><a href="#grid-container" class="desktop-items">Portfolio</a></li>
+          <li><a href="#about-me" class="desktop-items">About</a></li>
+          <li><a href="#form-area" class="desktop-items">Contact</a></li>
           <li>
             <a href="#"><img id="mail" src="images/MAIL2.svg" /></a>
           </li>
         </ul>
-        </nav>
+      </nav>
     </header>
     <main>
       <section class="home">
         <div class="headline">
-          <h1>Hey There.<br /> I'm Cosmas.</h1>
+          <h1>
+            Hey There.<br />
+            I'm Cosmas.
+          </h1>
           <h2>I'm a software developer</h2>
           <p>
             I can help you build a proffessional website, feature. Look through
@@ -58,21 +70,21 @@
           </ul>
         </div>
       </section>
-      <section class="grid-container">
+      <section class="grid-container" id="grid-container">
         <div class="recent-works">
           <h3>My Recent works</h3>
           <img class="line" src="images/images-self/line (2).png" />
         </div>
         <div class="works-container">
-          <div class="box">
-          </div>
+          <div class="box"></div>
           <div class="works1">
             <div class="works-head">
               <h3>Multi-Post Stories</h3>
               <p class="paragraph">
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required. has ben the industry's standard dummy text ever
-                since the 1500s,when an unknown printer took a standard dummy text.
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has ben the industry's standard dummy text
+                ever since the 1500s,when an unknown printer took a standard
+                dummy text.
               </p>
             </div>
             <div class="languages">
@@ -88,142 +100,142 @@
             </div>
           </div>
         </div>
-        </section>
+      </section>
       <div class="all-projects">
-      <section class="project">
-        <div class="text1">
-          <h2>Proffessional Art Printing Data</h2>
-        </div>
-        <div class="text2 none">
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has ben the industry's standard dummy text ever
-            since the 1500s
-          </p>
-        </div>
-        <div class="projlang none">
-          <ul>
-            <li><a href="index.html">HTML</a></li>
-            <li><a href="index.html">Bootstrap</a></li>
-            <li><a href="index.html">Ruby</a></li>
-          </ul>
-        </div>
-        <div class="seeproject">
-          <a href="index.html">See project</a>
-        </div>
-       </section>
+        <section class="project">
+          <div class="text1">
+            <h2>Proffessional Art Printing Data</h2>
+          </div>
+          <div class="text2 none">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has ben the industry's standard dummy text ever
+              since the 1500s
+            </p>
+          </div>
+          <div class="projlang none">
+            <ul>
+              <li><a href="index.html">HTML</a></li>
+              <li><a href="index.html">Bootstrap</a></li>
+              <li><a href="index.html">Ruby</a></li>
+            </ul>
+          </div>
+          <div class="seeproject">
+            <a href="index.html">See project</a>
+          </div>
+        </section>
         <section class="project1">
-        <div class="text1">
-          <h2>Data Dashboard Healthcare</h2>
-        </div>
-        <div class="text2">
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has ben the industry's standard dummy text ever
-            since the 1500s
-          </p>
-        </div>
-        <div class="projlang">
-          <ul>
-            <li><a href="index.html">HTML</a></li>
-            <li><a href="index.html">Bootstrap</a></li>
-            <li><a href="index.html">Ruby</a></li>
-          </ul>
-        </div>
-        <div class="seeproject none">
-          <a href="index.html">See project</a>
-        </div>
-         </section>
-          <section class="project2">
-        <div class="text1">
-          <h2>Website Portfolio</h2>
-        </div>
-        <div class="text2">
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has ben the industry's standard dummy text ever
-            since the 1500s
-          </p>
-        </div>
-        <div class="projlang">
-          <ul>
-            <li><a href="index.html">HTML</a></li>
-            <li><a href="index.html">Bootstrap</a></li>
-            <li><a href="index.html">Ruby</a></li>
-          </ul>
-        </div>
-        <div class="seeproject none">
-          <a href="index.html">See project</a>
-        </div>
-         </section>
+          <div class="text1">
+            <h2>Data Dashboard Healthcare</h2>
+          </div>
+          <div class="text2">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has ben the industry's standard dummy text ever
+              since the 1500s
+            </p>
+          </div>
+          <div class="projlang">
+            <ul>
+              <li><a href="index.html">HTML</a></li>
+              <li><a href="index.html">Bootstrap</a></li>
+              <li><a href="index.html">Ruby</a></li>
+            </ul>
+          </div>
+          <div class="seeproject none">
+            <a href="index.html">See project</a>
+          </div>
+        </section>
+        <section class="project2">
+          <div class="text1">
+            <h2>Website Portfolio</h2>
+          </div>
+          <div class="text2">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has ben the industry's standard dummy text ever
+              since the 1500s
+            </p>
+          </div>
+          <div class="projlang">
+            <ul>
+              <li><a href="index.html">HTML</a></li>
+              <li><a href="index.html">Bootstrap</a></li>
+              <li><a href="index.html">Ruby</a></li>
+            </ul>
+          </div>
+          <div class="seeproject none">
+            <a href="index.html">See project</a>
+          </div>
+        </section>
         <section class="project3">
-        <div class="text1">
-          <h2>Proffessional Art Printing Data More</h2>
-        </div>
-        <div class="text2">
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has ben the industry's standard dummy text ever
-            since the 1500s
-          </p>
-        </div>
-        <div class="projlang">
-          <ul>
-            <li><a href="index.html">HTML</a></li>
-            <li><a href="index.html">Bootstrap</a></li>
-            <li><a href="index.html">Ruby</a></li>
-          </ul>
-        </div>
-        <div class="seeproject none">
-          <a href="index.html">See project</a>
-        </div>
-      </section>
-      <section class="project4">
-        <div class="text1">
-          <h2>Data Dashboard Healthcare</h2>
-        </div>
-        <div class="text2">
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has ben the industry's standard dummy text ever
-            since the 1500s
-          </p>
-        </div>
-        <div class="projlang">
-          <ul>
-            <li><a href="index.html">HTML</a></li>
-            <li><a href="index.html">Bootstrap</a></li>
-            <li><a href="index.html">Ruby</a></li>
-          </ul>
-        </div>
-        <div class="seeproject none">
-          <a href="index.html">See project</a>
-        </div>
-      </section>
-      <section class="project5">
-        <div class="text1">
-          <h2>Website portifolio</h2>
-        </div>
-        <div class="text2">
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has ben the industry's standard dummy text ever
-            since the 1500s
-          </p>
-        </div>
-        <div class="projlang">
-          <ul>
-            <li><a href="index.html">HTML</a></li>
-            <li><a href="index.html">Bootstrap</a></li>
-            <li><a href="index.html">Ruby</a></li>
-          </ul>
-        </div>
-        <div class="seeproject none">
-          <a href="index.html">See project</a>
-        </div>
-      </section>
-    </div>
-      <section class="about-me">
+          <div class="text1">
+            <h2>Proffessional Art Printing Data More</h2>
+          </div>
+          <div class="text2">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has ben the industry's standard dummy text ever
+              since the 1500s
+            </p>
+          </div>
+          <div class="projlang">
+            <ul>
+              <li><a href="index.html">HTML</a></li>
+              <li><a href="index.html">Bootstrap</a></li>
+              <li><a href="index.html">Ruby</a></li>
+            </ul>
+          </div>
+          <div class="seeproject none">
+            <a href="index.html">See project</a>
+          </div>
+        </section>
+        <section class="project4">
+          <div class="text1">
+            <h2>Data Dashboard Healthcare</h2>
+          </div>
+          <div class="text2">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has ben the industry's standard dummy text ever
+              since the 1500s
+            </p>
+          </div>
+          <div class="projlang">
+            <ul>
+              <li><a href="index.html">HTML</a></li>
+              <li><a href="index.html">Bootstrap</a></li>
+              <li><a href="index.html">Ruby</a></li>
+            </ul>
+          </div>
+          <div class="seeproject none">
+            <a href="index.html">See project</a>
+          </div>
+        </section>
+        <section class="project5">
+          <div class="text1">
+            <h2>Website portifolio</h2>
+          </div>
+          <div class="text2">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has ben the industry's standard dummy text ever
+              since the 1500s
+            </p>
+          </div>
+          <div class="projlang">
+            <ul>
+              <li><a href="index.html">HTML</a></li>
+              <li><a href="index.html">Bootstrap</a></li>
+              <li><a href="index.html">Ruby</a></li>
+            </ul>
+          </div>
+          <div class="seeproject none">
+            <a href="index.html">See project</a>
+          </div>
+        </section>
+      </div>
+      <section class="about-me" id="about-me">
         <h1>About me</h1>
         <div class="details">
           <p>
@@ -262,12 +274,12 @@
               <li><a href="#">Rspec</a></li>
               <li><a href="#">Capybara</a></li>
             </ul>
-             </div>
-            <div class="exp1">
-              <div class="skills">
+          </div>
+          <div class="exp1">
+            <div class="skills">
               <img src="images/images-self/Rectangle-skills.png" />
               <h4>Skills</h4>
-              </div>
+            </div>
             <ul>
               <li><a href="#">Database management</a></li>
               <li><a href="#">Version control</a></li>
@@ -277,52 +289,73 @@
           </div>
         </div>
       </section>
-      <footer class="form-area">
+      <footer class="form-area" id="form-area">
         <div class="creator">
-          <h2>I'm always interested in hearing about new projects, so if you would like to chat 
-            please get in touch.
+          <h2>
+            I'm always interested in hearing about new projects, so if you would
+            like to chat please get in touch.
           </h2>
         </div>
         <div class="form-right">
-        <form action="https://formspree.io/f/mjvdlwyk" method="post">
-          <div class="field">
-            <input type="text" name="Full-name" id="full-name" placeholder="Full name" maxlength="30" required />
-          </div>
-          <div class="field">
-            <input type="email" name="email-address" id="email" placeholder="Email address" required /> 
-          </div>
-          <div class="field">
-            <textarea name="comments" rows="5" maxlength="500" placeholder="Write me something..." required></textarea>
-          </div>
-          <div class="field">
-            <button type="submit"><h5>Get in touch</h5></button>
-          </div>        
-        </form>
-        <hr />
-        <div class="social-icons2">
-          <ul>
-            <li><img src="images/SOCIAL2/social1.svg" /></li>
-            <li><img id="vec" src="images/SOCIAL2/social2.svg" /></li>
-            <li><img src="images/SOCIAL2/social3.svg" /></li>
-            <li><img src="images/SOCIAL2/social4.svg" /></li>
-            <li><img src="images/SOCIAL2/social5.svg" /></li>
-          </ul>
-          <div class="hr2">
-          <img src="images/SOCIAL2/line.svg">
-          </div>
-        </div>
-        </div>
-        </footer>
-        <div class="social-icons3">
+          <form action="https://formspree.io/f/mjvdlwyk" method="post">
+            <div class="field">
+              <input
+                type="text"
+                name="Full-name"
+                id="full-name"
+                placeholder="Full name"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="field">
+              <input
+                type="email"
+                name="email-address"
+                id="email"
+                placeholder="Email address"
+                required
+              />
+            </div>
+            <div class="field">
+              <textarea
+                name="comments"
+                rows="5"
+                maxlength="500"
+                placeholder="Write me something..."
+                required
+              ></textarea>
+            </div>
+            <div class="field">
+              <button type="submit"><h5>Get in touch</h5></button>
+            </div>
+          </form>
           <hr />
-          <ul>
-            <li><img src="images/SOCIAL2/social1.svg" /></li>
-            <li><img id="vec" src="images/SOCIAL2/social2.svg" /></li>
-            <li><img src="images/SOCIAL2/social3.svg" /></li>
-            <li><img src="images/SOCIAL2/social4.svg" /></li>
-            <li><img src="images/SOCIAL2/social5.svg" /></li>
-          </ul>
+          <div class="social-icons2">
+            <ul>
+              <li><img src="images/SOCIAL2/social1.svg" /></li>
+              <li><img id="vec" src="images/SOCIAL2/social2.svg" /></li>
+              <li><img src="images/SOCIAL2/social3.svg" /></li>
+              <li><img src="images/SOCIAL2/social4.svg" /></li>
+              <li><img src="images/SOCIAL2/social5.svg" /></li>
+            </ul>
+            <div class="hr2">
+              <img src="images/SOCIAL2/line.svg" />
+            </div>
+          </div>
         </div>
+      </footer>
+      <div class="social-icons3">
+        <hr />
+        <ul>
+          <li><img src="images/SOCIAL2/social1.svg" /></li>
+          <li><img id="vec" src="images/SOCIAL2/social2.svg" /></li>
+          <li><img src="images/SOCIAL2/social3.svg" /></li>
+          <li><img src="images/SOCIAL2/social4.svg" /></li>
+          <li><img src="images/SOCIAL2/social5.svg" /></li>
+        </ul>
+      </div>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
