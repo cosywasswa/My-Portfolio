@@ -494,7 +494,11 @@ form button h5 {
     padding-right: 5%;
   }
 
-  #union {
+  #humburger {
+    display: none;
+  }
+
+  nav .nav-mobile {
     display: none;
   }
 
