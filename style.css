@@ -13,6 +13,7 @@ header {
   justify-content: space-between;
   padding: 30px 10px;
   align-items: center;
+  height: 3.5rem;
 }
 
 header a {
@@ -102,6 +103,42 @@ nav {
   text-align: start;
   transition: 0.5s;
   z-index: 999;
+}
+
+.nav-mobile.active {
+  left: 0;
+}
+.link {
+  margin: 16px 0;
+}
+.nav-mobile a {
+  color: #fff5e1;
+  text-decoration: none;
+}
+.lines {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  transition: all 0.5s ease;
+  background-color: #67798e;
+}
+.hamburger {
+  display: block;
+  position: fixed;
+  top: 0.99rem;
+  right: 0.65rem;
+  z-index: 900;
+  width: 25px;
+}
+.hamburger.active .lines:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active .lines:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .lines:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .social-icons-des {
@@ -272,8 +309,7 @@ nav {
   width: 90%;
   height: auto;
   margin: auto;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -576,18 +612,22 @@ form button h5 {
     background-color: rgba(255, 255, 255, 0.24);
   }
 
+  .hamburger {
+    display: none;
+  }
+
   nav {
     display: block;
   }
 
-  nav .links {
+  nav .desktop-menu {
     display: flex;
     justify-content: space-around;
     list-style: none;
     color: #e5e5e5;
   }
 
-  nav .links li {
+  nav .desktop-menu li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
