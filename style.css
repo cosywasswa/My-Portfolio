@@ -14,8 +14,6 @@ header {
   padding: 30px 10px;
   align-items: center;
   height: 3.5rem;
-  position: fixed;
-  top: 0;
   z-index: 1000;
 }
 
@@ -238,6 +236,16 @@ nav {
   padding: 20px 20px;
 }
 
+.clicks li a {
+  padding: 10px;
+  border: 1px #8993a4;
+  color: #fff;
+  background-color: #ff6b00;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
 .languages ul {
   display: flex;
   justify-content: space-between;
@@ -251,7 +259,7 @@ nav {
   margin-bottom: 27px;
 }
 
-.visit a {
+.visit .btn-1 {
   padding: 10px;
   border: 1px #8993a4;
   color: #fff;
@@ -261,15 +269,19 @@ nav {
   font-family: "Inter", sans-serif;
 }
 
-.seeproject a {
+.seeproject .btn-1 {
   display: flex;
-  padding: 10px;
+  padding: 10px 120px;
   border: 10px solid #ff6b00;
   color: #fff;
   background-color: #ff6b00;
   text-decoration: none;
   font-size: 16px;
   font-family: "Inter", sans-serif;
+}
+
+.seeproject {
+  width: 100%;
 }
 
 .experience ul li a {
@@ -308,6 +320,108 @@ nav {
   margin: 0 auto 10px auto;
 }
 
+.project-details1 {
+  margin-top: 5px;
+  width: 98%;
+  justify-content: center;
+  align-items: center;
+  height: 718px;
+  position: fixed;
+  top: 10px;
+  background-color: white;
+  z-index: 1000;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.closebutton {
+  color: #67798e;
+  position: relative;
+  left: 90%;
+  top: -40px;
+  border-style: none;
+  background-color: white;
+  font-size: 22px;
+}
+
+.project-details1 h2 {
+  font-family: "Roboto Serif", serif;
+  height: 44px;
+  align-items: center;
+  font-size: 32px;
+  display: flex;
+  padding: 20px;
+  color: #172b4d;
+  margin-top: 20px;
+}
+
+.project-details1 h3 {
+  display: none;
+}
+
+.project-details1 .project-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+  padding: 20px 20px;
+  line-height: 24px;
+}
+
+.p-elements {
+  display: none;
+}
+
+.programing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+  width: 90%;
+}
+
+.programing li {
+  text-decoration: none;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+}
+
+.details-img1 {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+
+.clicks {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  padding-top: 20px;
+  list-style: none;
+  gap: 20px;
+}
+
+.clicks li {
+  border: 1px #8993a4;
+  color: #fff;
+  background-color: #ff6b00;
+  padding: 10px;
+}
+
+.clicks img {
+  width: 10%;
+}
+
+.all {
+  width: 100vw;
+  height: 100vh;
+}
+
 .all-projects {
   display: flex;
   flex-direction: column;
@@ -326,7 +440,8 @@ nav {
   width: 90%;
   height: auto;
   margin: auto;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -622,6 +737,16 @@ form button h5 {
     gap: 1%;
   }
 
+  .clicks li a {
+    padding: 10px;
+    border: 1px #8993a4;
+    color: #fff;
+    background-color: #ff6b00;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+  }
+
   .projlang ul li a {
     text-decoration: none;
     border: 1px solid #8993a4;
@@ -630,8 +755,21 @@ form button h5 {
     background-color: rgba(255, 255, 255, 0.24);
   }
 
+  .programing li {
+    text-decoration: none;
+    border: 1px solid #8993a4;
+    padding: 5px 5px;
+  }
+
   .hamburger {
     display: none;
+  }
+
+  .clicks li {
+    border: 1px #8993a4;
+    color: #fff;
+    background-color: #ff6b00;
+    padding: 10px;
   }
 
   nav {
@@ -805,6 +943,108 @@ form button h5 {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 15px;
+  }
+
+  .project-details1 {
+    margin-top: 5px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    height: 631px;
+    position: fixed;
+    top: 3.5rem;
+    background-color: white;
+    z-index: 999;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .closebutton {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 95%;
+    top: -30px;
+    border-style: none;
+    background-color: white;
+    font-size: 22px;
+  }
+
+  .project-details1 h2 {
+    display: none;
+  }
+
+  .project-details1 h3 {
+    margin-top: 20px;
+    display: block;
+    font-family: "Roboto Serif", serif;
+    height: 44px;
+    align-items: center;
+    font-size: 32px;
+    padding-left: 20px;
+  }
+
+  .project-details1 p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    line-height: 24px;
+    align-items: center;
+  }
+
+  .project-text {
+    position: relative;
+    right: 50px;
+    top: -20px;
+  }
+
+  .p-elements {
+    position: relative;
+    right: 30px;
+  }
+
+  .all-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .leftcontent {
+    width: 70%;
+    display: inline-block;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .img {
+    width: 90%;
+    height: 50%;
+  }
+
+  .programing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+    width: 20%;
+    position: relative;
+    top: -20px;
+    margin-left: 20px;
+  }
+
+  .clicks {
+    position: fixed;
+    top: 550px;
+    list-style: none;
+    gap: 20px;
+  }
+
+  .clicks img {
+    width: 10%;
   }
 
   .all-projects {
