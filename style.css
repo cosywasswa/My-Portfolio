@@ -333,12 +333,26 @@ nav {
   margin: 0 auto 10px auto;
 }
 
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 20px;
+  gap: 12px;
+  width: 100%;
+  height: 1451px;
+  background: #1c1a19;
+  background-image: url(images/images-self/about-me1.png);
+  background-repeat: no-repeat;
+  background-position: top 350px right;
+}
+
 .project-details1 {
   margin-top: 5px;
   width: 96%;
   justify-content: center;
   align-items: center;
-  height: auto;
+  height: 95vh;
   position: fixed;
   top: 10px;
   background-color: white;
@@ -347,20 +361,37 @@ nav {
   margin-right: 2px;
   overflow-y: scroll;
   overflow-x: hidden;
+  backdrop-filter: blur(5px);
 }
 
 body.active-popup .head {
   filter: blur(5px);
 }
 
+body.active-popup .home {
+  filter: blur(5px);
+}
+
+body.active-popup .about-me {
+  filter: blur(5px);
+}
+
+body.active-popup footer {
+  filter: blur(5px);
+}
+
+body.active-popup .social-icons3 {
+  filter: blur(5px);
+}
+
 .closebutton {
   color: #67798e;
   position: relative;
-  left: 90%;
-  top: -40px;
+  left: 93%;
+  top: -50px;
   border-style: none;
   background-color: white;
-  font-size: 22px;
+  font-size: 27px;
 }
 
 .project-details1 h2 {
@@ -429,7 +460,7 @@ body.active-popup .head {
   border: 1px #8993a4;
   color: #fff;
   background-color: #ff6b00;
-  padding: 10px;
+  padding: 12px;
 }
 
 .clicks img {
@@ -499,20 +530,6 @@ body.active-popup .head {
 .projlang ul li {
   margin-right: 10px;
   height: auto;
-}
-
-.about-me {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 120px 20px;
-  gap: 12px;
-  width: 100%;
-  height: 1451px;
-  background: #1c1a19;
-  background-image: url(images/images-self/about-me1.png);
-  background-repeat: no-repeat;
-  background-position: top 350px right;
 }
 
 .about-me h1 {
@@ -964,25 +981,51 @@ form button h5 {
     font-size: 15px;
   }
 
+  .about-me {
+    background-image: url(images/about-me-back.svg);
+    background-position: 100% 10%;
+    padding: 70px;
+    background-size: 30%;
+    height: auto;
+  }
+
+  .social-icons3 {
+    display: block;
+  }
+
   .project-details1 {
-    margin-top: 5px;
-    width: fit-content;
+    width: 90%;
     justify-content: center;
     align-items: center;
-    height: 631px;
+    height: 95vh;
     position: fixed;
     top: 3.5rem;
     background-color: white;
     z-index: 999;
-    margin-left: 10px;
+    margin-left: 75px;
     margin-right: 10px;
-    backdrop-filter: blur(10px);
     overflow: auto;
     border: 1px solid #ebecf0;
     overscroll-behavior: contain;
   }
 
   body.active-popup .head {
+    filter: blur(5px);
+  }
+
+  body.active-popup .home {
+    filter: blur(5px);
+  }
+
+  body.active-popup .about-me {
+    filter: blur(5px);
+  }
+
+  body.active-popup footer {
+    filter: blur(5px);
+  }
+
+  body.active-popup .social-icons3 {
     filter: blur(5px);
   }
 
@@ -994,7 +1037,7 @@ form button h5 {
     top: -30px;
     border-style: none;
     background-color: white;
-    font-size: 22px;
+    font-size: 30px;
   }
 
   .project-details1 h2 {
@@ -1059,18 +1102,19 @@ form button h5 {
     align-items: center;
     list-style: none;
     padding: 5px;
-    width: 20%;
+    width: 22%;
     position: relative;
     top: -20px;
     margin-left: 20px;
   }
 
   .clicks {
-    position: fixed;
-    top: 550px;
-    left: 50%;
+    position: relative;
+    top: 50px;
+    left: -70px;
     list-style: none;
     gap: 20px;
+    padding: 12px;
   }
 
   .clicks img {
@@ -1132,14 +1176,6 @@ form button h5 {
 
   .text1 {
     padding-top: 178px;
-  }
-
-  .about-me {
-    background-image: url(images/about-me-back.svg);
-    background-position: 100% 10%;
-    padding: 70px;
-    background-size: 30%;
-    height: auto;
   }
 
   .about-me .details {
@@ -1217,9 +1253,6 @@ form button h5 {
     display: none;
   }
 
-  .social-icons3 {
-    display: block;
-  }
 
   .social-icons3 ul {
     display: flex;
