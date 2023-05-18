@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  z-index: 10;
+}
+
 header {
   width: 100%;
   background-color: #3c3a39;
@@ -14,9 +18,8 @@ header {
   padding: 30px 10px;
   align-items: center;
   height: 3.5rem;
-  position: fixed;
-  top: 0;
   z-index: 1000;
+  position: fixed;
 }
 
 header a {
@@ -238,6 +241,16 @@ nav {
   padding: 20px 20px;
 }
 
+.clicks li a {
+  padding: 10px;
+  border: 1px #8993a4;
+  color: #fff;
+  background-color: #ff6b00;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
 .languages ul {
   display: flex;
   justify-content: space-between;
@@ -251,7 +264,7 @@ nav {
   margin-bottom: 27px;
 }
 
-.visit a {
+.visit .btn-1 {
   padding: 10px;
   border: 1px #8993a4;
   color: #fff;
@@ -261,15 +274,27 @@ nav {
   font-family: "Inter", sans-serif;
 }
 
-.seeproject a {
+.seeproject {
   display: flex;
-  padding: 10px;
-  border: 10px solid #ff6b00;
+  border: 1px solid #ff6b00;
   color: #fff;
   background-color: #ff6b00;
   text-decoration: none;
   font-size: 16px;
   font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 50px;
+}
+
+.seeproject .btn-1 {
+  background: #ff6b00;
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  border-style: none;
+  cursor: pointer;
 }
 
 .experience ul li a {
@@ -306,6 +331,148 @@ nav {
   background-size: cover;
   background-position: center;
   margin: 0 auto 10px auto;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 20px;
+  gap: 12px;
+  width: 100%;
+  height: 1451px;
+  background: #1c1a19;
+  background-image: url(images/images-self/about-me1.png);
+  background-repeat: no-repeat;
+  background-position: top 350px right;
+}
+
+.project-details1 {
+  margin-top: 5px;
+  width: 96%;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  position: fixed;
+  top: 10px;
+  background-color: white;
+  z-index: 1000;
+  margin-left: 6px;
+  margin-right: 2px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  backdrop-filter: blur(5px);
+}
+
+body.active-popup .head {
+  filter: blur(5px);
+}
+
+body.active-popup .home {
+  filter: blur(5px);
+}
+
+body.active-popup .about-me {
+  filter: blur(5px);
+}
+
+body.active-popup footer {
+  filter: blur(5px);
+}
+
+body.active-popup .social-icons3 {
+  filter: blur(5px);
+}
+
+.closebutton {
+  color: #67798e;
+  position: relative;
+  left: 93%;
+  top: -50px;
+  border-style: none;
+  background-color: white;
+  font-size: 27px;
+}
+
+.project-details1 h2 {
+  font-family: "Roboto Serif", serif;
+  height: 44px;
+  align-items: center;
+  font-size: 32px;
+  display: flex;
+  padding: 20px;
+  color: #172b4d;
+  margin-top: 20px;
+}
+
+.project-details1 h3 {
+  display: none;
+}
+
+.project-details1 .project-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+  padding: 20px 20px;
+  line-height: 24px;
+}
+
+.p-elements {
+  display: none;
+}
+
+.programing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+  width: 90%;
+}
+
+.programing li {
+  text-decoration: none;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+}
+
+.details-img1 {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+
+.clicks {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  padding-top: 20px;
+  list-style: none;
+  gap: 20px;
+}
+
+.clicks li {
+  border: 1px #8993a4;
+  color: #fff;
+  background-color: #ff6b00;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clicks img {
+  width: 1.2rem;
+}
+
+.all {
+  width: 100vw;
+  height: 100vh;
 }
 
 .all-projects {
@@ -366,20 +533,6 @@ nav {
 .projlang ul li {
   margin-right: 10px;
   height: auto;
-}
-
-.about-me {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 120px 20px;
-  gap: 12px;
-  width: 100%;
-  height: 1451px;
-  background: #1c1a19;
-  background-image: url(images/images-self/about-me1.png);
-  background-repeat: no-repeat;
-  background-position: top 350px right;
 }
 
 .about-me h1 {
@@ -575,7 +728,7 @@ form button h5 {
     height: 72px;
     background-color: #3c3a39;
     padding-right: 5%;
-    z-index: 9999;
+    z-index: 100;
   }
 
   #humburger {
@@ -623,12 +776,28 @@ form button h5 {
     gap: 1%;
   }
 
+  .clicks li a {
+    padding: 10px;
+    border: 1px #8993a4;
+    color: #fff;
+    background-color: #ff6b00;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+  }
+
   .projlang ul li a {
     text-decoration: none;
     border: 1px solid #8993a4;
     color: #fff;
     padding: 10px 12px 10px 12px;
     background-color: rgba(255, 255, 255, 0.24);
+  }
+
+  .programing li {
+    text-decoration: none;
+    border: 1px solid #8993a4;
+    padding: 5px 5px;
   }
 
   .hamburger {
@@ -785,7 +954,7 @@ form button h5 {
   }
 
   .projlang {
-    padding: 0;
+    padding-left: 10px;
   }
 
   .languages {
@@ -806,6 +975,142 @@ form button h5 {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 15px;
+  }
+
+  .about-me {
+    background-image: url(images/about-me-back.svg);
+    background-position: 100% 10%;
+    padding: 70px;
+    background-size: 30%;
+    height: auto;
+  }
+
+  .social-icons3 {
+    display: block;
+  }
+
+  .project-details1 {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    position: fixed;
+    top: 3.5rem;
+    background-color: white;
+    z-index: 999;
+    margin-left: 75px;
+    margin-right: 10px;
+    overflow: auto;
+    border: 1px solid #ebecf0;
+    overscroll-behavior: contain;
+  }
+
+  body.active-popup .head {
+    filter: blur(5px);
+  }
+
+  body.active-popup .home {
+    filter: blur(5px);
+  }
+
+  body.active-popup .about-me {
+    filter: blur(5px);
+  }
+
+  body.active-popup footer {
+    filter: blur(5px);
+  }
+
+  body.active-popup .social-icons3 {
+    filter: blur(5px);
+  }
+
+  .closebutton {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 95%;
+    top: -30px;
+    border-style: none;
+    background-color: white;
+    font-size: 30px;
+  }
+
+  .project-details1 h2 {
+    display: none;
+  }
+
+  .project-details1 h3 {
+    margin-top: 20px;
+    display: block;
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    height: 44px;
+    align-items: center;
+    font-size: 32px;
+    padding-left: 20px;
+    color: #172b4d;
+  }
+
+  .project-details1 p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    line-height: 24px;
+    align-items: center;
+  }
+
+  .project-text {
+    position: relative;
+    right: 50px;
+    top: -20px;
+  }
+
+  .p-elements {
+    position: relative;
+    right: 30px;
+  }
+
+  .all-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .leftcontent {
+    width: 70%;
+    display: inline-block;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .img {
+    width: 90%;
+    height: 50%;
+  }
+
+  .programing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+    width: 22%;
+    position: relative;
+    top: -20px;
+    margin-left: 20px;
+  }
+
+  .clicks {
+    position: relative;
+    top: 50px;
+    left: -70px;
+    list-style: none;
+    gap: 20px;
+    padding: 12px;
   }
 
   .all-projects {
@@ -863,14 +1168,6 @@ form button h5 {
 
   .text1 {
     padding-top: 178px;
-  }
-
-  .about-me {
-    background-image: url(images/about-me-back.svg);
-    background-position: 100% 10%;
-    padding: 70px;
-    background-size: 30%;
-    height: auto;
   }
 
   .about-me .details {
@@ -946,10 +1243,6 @@ form button h5 {
 
   .social-icons2 {
     display: none;
-  }
-
-  .social-icons3 {
-    display: block;
   }
 
   .social-icons3 ul {

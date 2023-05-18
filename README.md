@@ -5,7 +5,7 @@
  
   <br/>
 
-  <h3><b>Portfolio desktop version README Template</b></h3>
+  <h3><b>Portfolio Website  README Template</b></h3>
 
 </div>
 
@@ -74,6 +74,7 @@ https://www.loom.com/share/162416e9ac0f466a8e6d1099aad61c52
   **[Diplays information about the developer]**
   **[Diplays a contact form]**
   **[Diplays menu when hamburger is clicked]**
+  **[Diplays popup window when see project button is clicked]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,6 +131,7 @@ Use index.html file.
 - [ ] **[recent works page]**
 - [ ] **[About-me page]**
 - [ ] **[Contact-form page]**
+- [ ] **[Pop-up window]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
