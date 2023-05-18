@@ -11,7 +11,7 @@ document.querySelectorAll('.link').forEach((n) => n
     hamburger.classList.remove('active');
     navMenu.classList.remove('active');
   }));
-// The codes below keep the projects data dynamically and loads to the container all.
+
 const container = document.querySelector('.container-all');
 const allDetails = document.createElement('div');
 container.appendChild(allDetails);
@@ -69,7 +69,7 @@ allDetails.innerHTML = `
             </ul>
           </div>
           <div class="seeproject">
-          <button type="button" class="btn-1 btn-open1" id="btn-2" onclick="popupopen1()">See Project</button>
+          <button type="button" class="btn-1" btn-open1" id="btn-2" onclick="popupopen1()">See Project</button>
           </div>
         </section>
         <section class="project1">
@@ -91,7 +91,7 @@ allDetails.innerHTML = `
             </ul>
           </div>
           <div class="seeproject none">
-          <button type="button" class="btn-1 btn-open2" id="btn-3" onclick="popupopen2()">See Project</button>
+          <button type="button" class="btn-1" btn-open2" id="btn-3" onclick="popupopen2()">See Project</button>
           </div>
         </section>
         <section class="project2">
@@ -113,7 +113,7 @@ allDetails.innerHTML = `
             </ul>
           </div>
           <div class="seeproject none">
-          <button type="button" class="btn-1 btn-open3" id="btn-4" onclick="popupopen3()">See Project</button>
+          <button type="button" class="btn-1" btn-open3" id="btn-4" onclick="popupopen3()">See Project</button>
           </div>
         </section>
         <section class="project3">
@@ -135,7 +135,7 @@ allDetails.innerHTML = `
             </ul>
           </div>
           <div class="seeproject none">
-          <button type="button" class="btn-1 btn-open4" id="btn-5" onclick="popupopen4()">See Project</button>
+          <button type="button" class="btn-1" btn-open4" id="btn-5" onclick="popupopen4()">See Project</button>
           </div>
         </section>
         <section class="project4">
@@ -157,7 +157,7 @@ allDetails.innerHTML = `
             </ul>
           </div>
           <div class="seeproject none">
-          <button type="button" class="btn-1 btn-open5" id="btn-6" onclick="popupopen5()">See Project</button>
+          <button type="button" class="btn-1" btn-open5" id="btn-6" onclick="popupopen5()">See Project</button>
           </div>
         </section>
         <section class="project5">
@@ -179,20 +179,19 @@ allDetails.innerHTML = `
             </ul>
           </div>
           <div class="seeproject none">
-          <button type="button" class="btn-1 btn-open6" id="btn-7" onclick="popupopen6()">See Project</button>
+          <button type="button" class="btn-1" btn-open6" id="btn-7" onclick="popupopen6()">See Project</button>
           </div>
         </section>
       </div>
     
 `;
 
-// Create html elements for the poup windows for each project.
 const popup = `
   
   <section class="project-details1" id="modal1" >
               <h2>Multi-Post Stories</h2>
               <h3 class="h3tittle">Keeping track of hundreds of components website</h3>
-              <button onclick="popupclose()"  class="closebutton" id="btn-close">&times;</button>
+              <button onclick="popupclose()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
                   <li>HTML</li>
@@ -230,8 +229,7 @@ const popup = `
           </div>
         </section>
         `;
-/* below codes are to call the onclick functions when user clicks to
-see project and closes after user closes window. */
+
 const sectionWorks = document.querySelector('.container-all');
 
 const popwindow = document.createElement('div');
@@ -243,6 +241,8 @@ function popupopen() {
   sectionWorks.prepend(popwindow);
   popwindow.classList.remove('close1');
   popwindow.classList.add('popup-container');
+  // const body = document.getElementsByTagName('body');
+  // body.blur();
 }
 function popupclose() {
   popwindow.classList.remove('.popup-container');
@@ -254,7 +254,7 @@ const popup1 = `
 <section class="project-details1" id="modal2" >
               <h2>Proffessional Art Printing Data</h2>
               <h3 class="h3tittle">Keeping track of hundreds of components website</h3>
-               <button onclick="popupclose1()"  class="closebutton" id="btn-close">&times;</button>
+               <button onclick="popupclose1()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
                   <li>HTML</li>
@@ -312,7 +312,7 @@ function popupclose1() {
 const popup2 = `
 <section class="project-details1">
               <h2>Data Dashboard HealthCare</h2>
-               <button onclick="popupclose2()"  class="closebutton" id="btn-close">&times;</button>
+               <button onclick="popupclose2()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
                   <li>HTML</li>
@@ -358,7 +358,7 @@ function popupclose2() {
 const popup3 = `
 <section class="project-details1">
               <h2>Website Portfolio</h2>
-               <button onclick="popupclose3()"  class="closebutton" id="btn-close">&times;</button>
+               <button onclick="popupclose3()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
                   <li>HTML</li>
@@ -404,7 +404,7 @@ function popupclose3() {
 const popup4 = `
 <section class="project-details1">
               <h2>Proffessional Art Printing Data</h2>
-               <button onclick="popupclose4()"  class="closebutton" id="btn-close">&times;</button>
+               <button onclick="popupclose4()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
                   <li>HTML</li>
@@ -450,7 +450,7 @@ function popupclose4() {
 const popup5 = `
 <section class="project-details1">
               <h2>Data Dashboard Healthcare</h2>
-               <button onclick="popupclose5()"  class="closebutton" id="btn-close">&times;</button>
+               <button onclick="popupclose5()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
                   <li>HTML</li>
@@ -495,7 +495,7 @@ function popupclose5() {
 const popup6 = `
 <section class="project-details1">
               <h2>Website Portfolio</h2>
-               <button onclick="popupclose6()"  class="closebutton" id="btn-close">&times;</button>
+               <button onclick="popupclose6()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
                   <li>HTML</li>
@@ -537,7 +537,15 @@ function popupclose6() {
   popwindow6.classList.add('close1');
   sectionWorks.removeChild(popwindow6);
 }
-// Due to linters errors, I have put the codes.
+const body = document.querySelector('body');
+document.querySelector('.btn-1').addEventListener('click', function () {
+  document.body.classList.add("active-popup");
+});
+
+document.querySelector('.closebutton').addEventListener('click', function () {
+  document.body.classList.remove("active-popup");
+});
+
 popupclose();
 popupclose1();
 popupclose2();
