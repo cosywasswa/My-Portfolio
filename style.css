@@ -460,11 +460,14 @@ body.active-popup .social-icons3 {
   border: 1px #8993a4;
   color: #fff;
   background-color: #ff6b00;
-  padding: 12px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .clicks img {
-  width: 10%;
+  width: 1.2rem;
 }
 
 .all {
@@ -801,13 +804,6 @@ form button h5 {
     display: none;
   }
 
-  .clicks li {
-    border: 1px #8993a4;
-    color: #fff;
-    background-color: #ff6b00;
-    padding: 10px;
-  }
-
   nav {
     display: block;
   }
@@ -1115,10 +1111,6 @@ form button h5 {
     list-style: none;
     gap: 20px;
     padding: 12px;
-  }
-
-  .clicks img {
-    width: 10%;
   }
 
   .all-projects {
