@@ -241,13 +241,17 @@ function popupopen() {
   sectionWorks.prepend(popwindow);
   popwindow.classList.remove('close1');
   popwindow.classList.add('popup-container');
-  // const body = document.getElementsByTagName('body');
-  // body.blur();
+  const body = document.querySelector('body');
+  body.style.overflow = 'hidden';
+  document.body.classList.add('active-popup');
 }
 function popupclose() {
   popwindow.classList.remove('.popup-container');
   popwindow.classList.add('close1');
   sectionWorks.removeChild(popwindow);
+  const body = document.querySelector('body');
+  body.style.overflow = 'auto';
+  document.body.classList.remove('active-popup');
 }
 
 const popup1 = `
@@ -264,7 +268,7 @@ const popup1 = `
                 </div>
                 <div class="all-div">
                 <div class="img">
-                <img class="details-img1" src="images/pop-up/back3.svg" alt=" " />
+                <img class="details-img1" src="images/pop-up/back5.png" alt=" " />
                 </div>
                 <div class="leftcontent">
               <p class="project-text">
@@ -302,11 +306,17 @@ function popupopen1() {
   sectionWorks.prepend(popwindow1);
   popwindow1.classList.remove('close1');
   popwindow1.classList.add('popup-container');
+  const body = document.querySelector('body');
+  body.style.overflow = 'hidden';
+  document.body.classList.add('active-popup');
 }
 function popupclose1() {
   popwindow1.classList.remove('.popup-container');
   popwindow1.classList.add('close1');
   sectionWorks.removeChild(popwindow1);
+  const body = document.querySelector('body');
+  body.style.overflow = 'auto';
+  document.body.classList.remove('active-popup');
 }
 
 const popup2 = `
@@ -348,11 +358,17 @@ function popupopen2() {
   sectionWorks.prepend(popwindow2);
   popwindow2.classList.remove('close1');
   popwindow2.classList.add('popup-container');
+  const body = document.querySelector('body');
+  body.style.overflow = 'hidden';
+  document.body.classList.add('active-popup');
 }
 function popupclose2() {
   popwindow2.classList.remove('.popup-container');
   popwindow2.classList.add('close1');
   sectionWorks.removeChild(popwindow2);
+  const body = document.querySelector('body');
+  body.style.overflow = 'auto';
+  document.body.classList.remove('active-popup');
 }
 
 const popup3 = `
@@ -394,11 +410,17 @@ function popupopen3() {
   sectionWorks.prepend(popwindow3);
   popwindow3.classList.remove('close1');
   popwindow3.classList.add('popup-container');
+  const body = document.querySelector('body');
+  body.style.overflow = 'hidden';
+  document.body.classList.add('active-popup');
 }
 function popupclose3() {
   popwindow3.classList.remove('.popup-container');
   popwindow3.classList.add('close1');
   sectionWorks.removeChild(popwindow3);
+  const body = document.querySelector('body');
+  body.style.overflow = 'auto';
+  document.body.classList.remove('active-popup');
 }
 
 const popup4 = `
@@ -440,11 +462,17 @@ function popupopen4() {
   sectionWorks.prepend(popwindow4);
   popwindow4.classList.remove('close1');
   popwindow4.classList.add('popup-container');
+  const body = document.querySelector('body');
+  body.style.overflow = 'hidden';
+  document.body.classList.add('active-popup');
 }
 function popupclose4() {
   popwindow4.classList.remove('.popup-container');
   popwindow4.classList.add('close1');
   sectionWorks.removeChild(popwindow4);
+  const body = document.querySelector('body');
+  body.style.overflow = 'auto';
+  document.body.classList.remove('active-popup');
 }
 
 const popup5 = `
@@ -485,11 +513,17 @@ function popupopen5() {
   sectionWorks.prepend(popwindow5);
   popwindow5.classList.remove('close1');
   popwindow5.classList.add('popup-container');
+  const body = document.querySelector('body');
+  body.style.overflow = 'hidden';
+  document.body.classList.add('active-popup');
 }
 function popupclose5() {
   popwindow5.classList.remove('.popup-container');
   popwindow5.classList.add('close1');
   sectionWorks.removeChild(popwindow5);
+  const body = document.querySelector('body');
+  body.style.overflow = 'auto';
+  document.body.classList.remove('active-popup');
 }
 
 const popup6 = `
@@ -531,20 +565,18 @@ function popupopen6() {
   sectionWorks.prepend(popwindow6);
   popwindow6.classList.remove('close1');
   popwindow6.classList.add('popup-container');
+  const body = document.querySelector('body');
+  body.style.overflow = 'hidden';
+  document.body.classList.add('active-popup');
 }
 function popupclose6() {
   popwindow6.classList.remove('.popup-container');
   popwindow6.classList.add('close1');
   sectionWorks.removeChild(popwindow6);
+  const body = document.querySelector('body');
+  body.style.overflow = 'auto';
+  document.body.classList.remove('active-popup');
 }
-const body = document.querySelector('body');
-document.querySelector('.btn-1').addEventListener('click', function () {
-  document.body.classList.add("active-popup");
-});
-
-document.querySelector('.closebutton').addEventListener('click', function () {
-  document.body.classList.remove("active-popup");
-});
 
 popupclose();
 popupclose1();
