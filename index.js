@@ -268,7 +268,7 @@ const popup1 = `
                 </div>
                 <div class="all-div">
                 <div class="img">
-                <img class="details-img1" src="images/pop-up/back5.png" alt=" " />
+                <img class="details-img1" src="images/pop-up/Snapshoot Portfolio.svg" alt=" " />
                 </div>
                 <div class="leftcontent">
               <p class="project-text">
