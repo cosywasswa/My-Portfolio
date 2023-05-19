@@ -133,18 +133,20 @@
           </h2>
         </div>
         <div class="form-right">
-          <form action="https://formspree.io/f/mjvdlwyk" method="post">
+          <form class="form" action="https://formspree.io/f/mjvdlwyk" method="post" id="send">
             <div class="field">
               <input
                 type="text"
                 name="Full-name"
                 id="full-name"
                 placeholder="Full name"
+                onkeyup="validateName()"
                 maxlength="30"
                 required
               />
+              <span class="input-error" id="name-error"></span>
             </div>
-            <div class="field">
+            <div class="field2">
               <input
                 type="email"
                 name="email-address"
@@ -152,18 +154,23 @@
                 placeholder="Email address"
                 required
               />
+              <span class="input-error" id="email-error"></span>
             </div>
-            <div class="field">
+            <div class="field3">
               <textarea
                 name="comments"
+                id="textmsg"
                 rows="5"
                 maxlength="500"
                 placeholder="Write me something..."
+                onkeyup="validateText()"
                 required
               ></textarea>
+              <span class="text-error" id="text-error"></span>
             </div>
             <div class="field">
-              <button type="submit"><h5>Get in touch</h5></button>
+              <button type="submit" id="btn" ><h5>Get in touch</h5></button>
+              <span class="submit-error" id="submit-error"></span>
             </div>
           </form>
           <hr />
@@ -194,5 +201,6 @@
       </div>
     </main>
     <script src="index.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>
