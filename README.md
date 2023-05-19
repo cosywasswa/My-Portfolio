@@ -132,6 +132,7 @@ Use index.html file.
 - [ ] **[About-me page]**
 - [ ] **[Contact-form page]**
 - [ ] **[Pop-up window]**
+- [ ] **[Email validation feature]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
