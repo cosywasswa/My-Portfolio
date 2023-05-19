@@ -133,6 +133,7 @@ Use index.html file.
 - [ ] **[Contact-form page]**
 - [ ] **[Pop-up window]**
 - [ ] **[Email validation feature]**
+- [ ] **[Forn local data storage feature]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
