@@ -1,5 +1,5 @@
 const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-mobile1');
+const navMenu = document.querySelector('.nav-mobile');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -12,7 +12,7 @@ document.querySelectorAll('.link').forEach((n) => n
     navMenu.classList.remove('active');
   }));
 
-const container = document.querySelector('.container-all2');
+const container = document.querySelector('.container-all');
 const allDetails = document.createElement('div');
 container.appendChild(allDetails);
 allDetails.innerHTML = `
