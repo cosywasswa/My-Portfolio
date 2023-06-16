@@ -25,12 +25,10 @@ allDetails.innerHTML = `
           <div class="box"></div>
           <div class="works1">
             <div class="works-head">
-              <h3>Multi-Post Stories</h3>
+              <h3>Save The Planet</h3>
               <p class="paragraph">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has ben the industry's standard dummy text
-                ever since the 1500s,when an unknown printer took a standard
-                dummy text.
+              Save the plannet conference-website is a project for a global conference on climate change and Carbon-Zero. 
+              It contains two pages i.e the home page and about me page.
               </p>
             </div>
             <div class="languages">
@@ -201,28 +199,22 @@ const popup = `
                 </div>
                 <div class="all-div">
                 <div class="img">
-                <img class="details-img1" src="images/pop-up/Snapshoot Portfolio.svg" alt=" " />
+                <img class="details-img1" src="images/shotsforportfolio/desktop.PNG" alt=" " />
                 </div>
                 <div class="leftcontent">
               <p class="project-text">
 
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries,
-                    but also the leap into electronic typesetting,
-                    remaining essential.
+              Save the plannet conference-website is a project for a global conference on climate change and Carbon-Zero.
+               It contains two pages i.e the home page and about me page.
+              it is a responsive site for both mobile and desktop users
 
-                   <p class="p-elements"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries,
-                    but also the leap into electronic typesetting,
-                    remaining essential.</p>
+                   <p class="p-elements"> In recent years, the concept of achieving carbon zero or carbon neutrality has gained significant attention in the global effort to combat climate change. 
+                   Carbon zero refers to the state in which the net emissions of carbon dioxide and other greenhouse gases produced by human activities are effectively balanced or offset by carbon removal or reduction methods. 
+                   It is a crucial goal to mitigate the impacts of climate change and create a sustainable future for our planet..</p>
               </p>
             <ul class="clicks">
-              <li><a href="index.html">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
-              <li><a href="index.html">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
+              <li><a href="https://cosywasswa.github.io/Capstone-Project1/">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
+              <li><a href="https://github.com/cosywasswa/Capstone-Project1">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
             </ul>
             </div>
             </div>
