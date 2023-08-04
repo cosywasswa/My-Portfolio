@@ -79,6 +79,19 @@ header a {
   margin: 10px 0 0 0;
 }
 
+.picture {
+  display: flex;
+  justify-content: center;
+}
+
+.picture img {
+  width: 90%;
+  height: 300px;
+  opacity: 0.9;
+  padding-bottom: 20px;
+  border-radius: 40px;
+}
+
 nav {
   display: block;
 }
@@ -864,7 +877,7 @@ form button h5 {
     height: auto;
     display: flex;
     flex-direction: column;
-    background: #1c1a19;
+    background: #1a1122;
     background-image: url(images/Illustration-header.svg);
     background-repeat: no-repeat;
     background-position: 100% -20%;
@@ -875,6 +888,7 @@ form button h5 {
     width: 50%;
     height: 70%;
     margin-left: 60px;
+    display: flex;
   }
 
   .headline h1 {
@@ -908,6 +922,19 @@ form button h5 {
     line-height: 32px;
     align-items: center;
     color: #f4f5f7;
+  }
+
+  .picture {
+    padding-left: 40px;
+   
+  }
+
+  .picture img {
+width: 200%;
+height:auto;
+opacity: 1;
+border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
 
   .social-icons-des {
