@@ -342,9 +342,9 @@ nav {
 .box {
   width: 100%;
   background-image: url(images/new-snaps/crypto-mob.PNG);
-  height:580px;
+  height: 580px;
   background-repeat: no-repeat;
-  background-size:330px;
+  background-size: 330px;
   background-position: center;
   margin: 0 auto 10px auto;
 }
@@ -517,9 +517,9 @@ body.active-popup .social-icons3 {
       rgba(38, 38, 38, 0.9) 61.94%
     ),
     url(./images/new-snaps/plannet-mob.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
 }
 
 .project1 {
@@ -533,9 +533,9 @@ body.active-popup .social-icons3 {
       rgba(38, 38, 38, 0.9) 61.94%
     ),
     url(./images/new-snaps/vidvib-mob.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
 }
 
 .project2 {
