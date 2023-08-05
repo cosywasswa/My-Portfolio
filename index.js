@@ -25,18 +25,17 @@ allDetails.innerHTML = `
           <div class="box"></div>
           <div class="works1">
             <div class="works-head">
-              <h3>Save The Planet</h3>
+              <h3>Crypto-360</h3>
               <p class="paragraph">
-              Save the plannet conference-website is a project for a global conference on climate change and Carbon-Zero. 
-              It contains two pages i.e the home page and about me page.
+              Crypto360 is a web application to display Crypto currencies from the coin cap API.
               </p>
             </div>
             <div class="languages">
               <ul class="langul">
+                <li><a href="index.html">React</a></li>
+                <li><a href="index.html">Redux</a></li>
+                <li><a href="index.html">API</a></li>
                 <li><a href="index.html">CSS</a></li>
-                <li><a href="index.html">HTML</a></li>
-                <li><a href="index.html">Bootstrap</a></li>
-                <li><a href="index.html">Ruby</a></li>
               </ul>
             </div>
             <div class="visit">
@@ -50,20 +49,18 @@ allDetails.innerHTML = `
       <div class="all-projects">
         <section class="project">
           <div class="text1">
-            <h2>Proffessional Art Printing Data</h2>
+            <h2></h2>
           </div>
           <div class="text2 none">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has ben the industry's standard dummy text ever
-              since the 1500s
-            </p>
+            <h2>
+            SAVE the plannet
+            </h2>
           </div>
           <div class="projlang none">
             <ul>
               <li><a href="index.html">HTML</a></li>
-              <li><a href="index.html">Bootstrap</a></li>
-              <li><a href="index.html">Ruby</a></li>
+              <li><a href="index.html">CSS</a></li>
+              <li><a href="index.html">JavaScript</a></li>
             </ul>
           </div>
           <div class="seeproject">
@@ -72,20 +69,17 @@ allDetails.innerHTML = `
         </section>
         <section class="project1">
           <div class="text1">
-            <h2>Data Dashboard Healthcare</h2>
+            <h2>VIDVIB Movies</h2>
           </div>
           <div class="text2">
             <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has ben the industry's standard dummy text ever
-              since the 1500s
             </p>
           </div>
-          <div class="projlang">
+          <div class="projlang tech2">
             <ul>
               <li><a href="index.html">HTML</a></li>
-              <li><a href="index.html">Bootstrap</a></li>
-              <li><a href="index.html">Ruby</a></li>
+              <li><a href="index.html">API</a></li>
+              <li><a href="index.html">JavaScript</a></li>
             </ul>
           </div>
           <div class="seeproject none">
@@ -98,9 +92,6 @@ allDetails.innerHTML = `
           </div>
           <div class="text2">
             <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has ben the industry's standard dummy text ever
-              since the 1500s
             </p>
           </div>
           <div class="projlang">
@@ -120,9 +111,6 @@ allDetails.innerHTML = `
           </div>
           <div class="text2">
             <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has ben the industry's standard dummy text ever
-              since the 1500s
             </p>
           </div>
           <div class="projlang">
@@ -142,9 +130,6 @@ allDetails.innerHTML = `
           </div>
           <div class="text2">
             <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has ben the industry's standard dummy text ever
-              since the 1500s
             </p>
           </div>
           <div class="projlang">
@@ -164,9 +149,6 @@ allDetails.innerHTML = `
           </div>
           <div class="text2">
             <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has ben the industry's standard dummy text ever
-              since the 1500s
             </p>
           </div>
           <div class="projlang">
@@ -187,34 +169,31 @@ allDetails.innerHTML = `
 const popup = `
   
   <section class="project-details1" id="modal1" >
-              <h2>Multi-Post Stories</h2>
-              <h3 class="h3tittle">Keeping track of hundreds of components website</h3>
+              <h2>CRYPTO-360</h2>
+              <h3 class="h3tittle">Crypto-360</h3>
               <button onclick="popupclose()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
-                  <li>HTML</li>
-                  <li>Bootstrap</li>
-                  <li>Ruby on Rails</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>API</li>
                 </ul>
                 </div>
                 <div class="all-div">
                 <div class="img">
-                <img class="details-img1" src="images/shotsforportfolio/desktop.PNG" alt=" " />
+                <img class="details-img1" src="images/new-snaps/crypto-des.PNG" alt=" " />
                 </div>
                 <div class="leftcontent">
               <p class="project-text">
 
-              Save the plannet conference-website is a project for a global conference on climate change and Carbon-Zero.
-               It contains two pages i.e the home page and about me page.
-              it is a responsive site for both mobile and desktop users
+              Crypto360 is a web application to display Crypto currencies from the coin cap API.
 
-                   <p class="p-elements"> In recent years, the concept of achieving carbon zero or carbon neutrality has gained significant attention in the global effort to combat climate change. 
-                   Carbon zero refers to the state in which the net emissions of carbon dioxide and other greenhouse gases produced by human activities are effectively balanced or offset by carbon removal or reduction methods. 
-                   It is a crucial goal to mitigate the impacts of climate change and create a sustainable future for our planet..</p>
+                   <p class="p-elements"> A user can search for a crypto by name/symbol and the search results will be displayed on top of the list.
+                   When a user clicks on a particular crypto, a details page opens containing details of the selected Crypto currency...</p>
               </p>
             <ul class="clicks">
-              <li><a href="https://cosywasswa.github.io/Capstone-Project1/">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
-              <li><a href="https://github.com/cosywasswa/Capstone-Project1">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
+              <li><a href="https://crypto360.onrender.com">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
+              <li><a href="https://github.com/cosywasswa/Crypto360">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
             </ul>
             </div>
             </div>
@@ -248,40 +227,32 @@ function popupclose() {
 
 const popup1 = `
 <section class="project-details1" id="modal2" >
-              <h2>Proffessional Art Printing Data</h2>
-              <h3 class="h3tittle">Keeping track of hundreds of components website</h3>
+              <h2>Save the planet international conference</h2>
+              <h3 class="h3tittle">Save the planet international conference</h3>
                <button onclick="popupclose1()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
                   <li>HTML</li>
-                  <li>Bootstrap</li>
-                  <li>Ruby on Rails</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
                 </ul>
                 </div>
                 <div class="all-div">
                 <div class="img">
-                <img class="details-img1" src="images/pop-up/Snapshoot Portfolio.svg" alt=" " />
+                <img class="details-img1" src="images/new-snaps/plannet-des.PNG" alt=" " />
                 </div>
                 <div class="leftcontent">
               <p class="project-text">
 
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries,
-                    but also the leap into electronic typesetting,
-                    remaining essential.
+              Save the plannet conference-website is a project for 
+              a global conference on climate change and Carbon-Zero.
 
-                   <p class="p-elements"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries,
-                    but also the leap into electronic typesetting,
-                    remaining essential.</p>
+                   <p class="p-elements"> It contains two pages i.e the home page and about me page.
+                   it is a responsive site for both mobile and desktop users.</p>
               </p>
             <ul class="clicks">
-              <li><a href="index.html">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
-              <li><a href="index.html">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
+              <li><a href="https://cosywasswa.github.io/Capstone-Project1/">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
+              <li><a href="https://github.com/cosywasswa/Capstone-Project1">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
             </ul>
             </div>
             </div>
@@ -313,25 +284,21 @@ function popupclose1() {
 
 const popup2 = `
 <section class="project-details1">
-              <h2>Data Dashboard HealthCare</h2>
+              <h2>VIDVIB Movies</h2>
                <button onclick="popupclose2()" class="closebutton" id="btn-close">&times;</button>
-              <div class="programs">
-                <ul class="programing">
+              <div class="programs programs2">
+                <ul class="programing programming2">
                   <li>HTML</li>
-                  <li>Bootstrap</li>
-                  <li>Ruby on Rails</li>
+                  <li>API</li>
+                  <li>JavaScript</li>
                 </ul>
                 </div>
-                <img class="details-img1" src="images/pop-up/back2.svg" alt=" " />
+                <img class="details-img1" src="images/new-snaps/vidvib-mob.PNG" alt=" " />
 
               <p class="project-text">
 
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries,
-                    but also the leap into electronic typesetting,
-                    remaining essential.
+              VidVib is a web application that displays a list of movies from an API. 
+              Users can like and add comments to a movie of their preference
               </p>
             <ul class="clicks">
               <li><a href="index.html">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
