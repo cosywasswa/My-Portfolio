@@ -66,6 +66,8 @@ header a {
   flex-grow: 0;
   font-family: "Roboto Serif", serif;
   font-style: normal;
+  text-align: center;
+  padding: 10px 0;
 }
 
 .headline p {
@@ -82,6 +84,7 @@ header a {
 .picture {
   display: flex;
   justify-content: center;
+  margin-block: 10px;
 }
 
 .picture img {
@@ -89,7 +92,7 @@ header a {
   height: 300px;
   opacity: 0.9;
   padding-bottom: 20px;
-  border-radius: 40px;
+  border-radius: 20px;
 }
 
 nav {
@@ -223,7 +226,7 @@ nav {
 .recent-works {
   font-family: "Crete Round", serif;
   font-size: 30px;
-  padding: 70px 20px;
+  padding: 30px 20px;
 }
 
 .line {
@@ -233,7 +236,7 @@ nav {
 .img-works {
   height: 237px;
   display: flex;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .works-head h3 {
@@ -337,11 +340,11 @@ nav {
 }
 
 .box {
-  width: 90%;
-  background-image: url(images/shotsforportfolio/box-mobile.PNG);
-  height: 230px;
+  width: 100%;
+  background-image: url(images/new-snaps/crypto-mob.PNG);
+  height:580px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:330px;
   background-position: center;
   margin: 0 auto 10px auto;
 }
@@ -401,7 +404,7 @@ body.active-popup .social-icons3 {
   color: #67798e;
   position: relative;
   left: 93%;
-  top: -50px;
+  top: -120px;
   border-style: none;
   background-color: white;
   font-size: 27px;
@@ -413,7 +416,7 @@ body.active-popup .social-icons3 {
   align-items: center;
   font-size: 32px;
   display: flex;
-  padding: 20px;
+  padding: 50px 20px;
   color: #172b4d;
   margin-top: 20px;
 }
@@ -436,14 +439,20 @@ body.active-popup .social-icons3 {
   display: none;
 }
 
+.programs2 {
+  margin-top: -60px;
+}
+
 .programing {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  padding: 20px;
-  width: 90%;
+  padding: 15px 20px;
+  width: 70%;
+  margin-top: -20px;
+  gap: 5px;
 }
 
 .programing li {
@@ -507,7 +516,10 @@ body.active-popup .social-icons3 {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(./images/Img\ Placeholderproj.svg);
+    url(./images/new-snaps/plannet-mob.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
 }
 
 .project1 {
@@ -520,7 +532,10 @@ body.active-popup .social-icons3 {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(./images/back4.svg);
+    url(./images/new-snaps/vidvib-mob.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
 }
 
 .project2 {
@@ -846,7 +861,7 @@ form button h5 {
   .programing li {
     text-decoration: none;
     border: 1px solid #8993a4;
-    padding: 5px 5px;
+    padding: 5px 10px;
   }
 
   .hamburger {
@@ -984,9 +999,9 @@ form button h5 {
   }
 
   .box {
-    width: 100%;
-    background-image: url(images/shotsforportfolio/desktop.PNG);
-    height: 322px;
+    width: 270%;
+    background-image: url(images/new-snaps/crypto-des.PNG);
+    height: 722px;
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -1159,11 +1174,12 @@ form button h5 {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding: 5px;
-    width: 22%;
+    padding: 10px;
+    width: 15%;
     position: relative;
     top: -20px;
     margin-left: 20px;
+    gap: 5px;
   }
 
   .clicks {
@@ -1195,15 +1211,22 @@ form button h5 {
 
   .project {
     position: relative;
-    background-image: url(images/back4.svg);
+    background-image: url(images/new-snaps/plannet-mob.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .project1 {
-    background-image: url(images/back4.svg);
+    background-image: url(images/new-snaps/vidvib-mob.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 375px;
   }
 
   .project2 {
     background-image: url(images/back3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .project3 {
@@ -1220,6 +1243,10 @@ form button h5 {
 
   .none {
     display: none;
+  }
+
+  .tech2 {
+    margin-top: 90px;
   }
 
   .seeproject {
