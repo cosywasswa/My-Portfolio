@@ -82,7 +82,7 @@ https://www.loom.com/share/162416e9ac0f466a8e6d1099aad61c52
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--This is my project [Live Demo Link](https://cosywasswa.github.io/My-Portfolio-Desktop/)
+-This is my project [Live Demo Link](https://cosywasswa.github.io/My-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
