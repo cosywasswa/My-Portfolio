@@ -598,10 +598,11 @@ body.active-popup .social-icons3 {
 
 .text1 {
   font-family: "Crete Round", serif;
-  color: #fff;
+  color: #323b38;
   padding: 150px 10px;
   font-size: 15px;
   text-align: center;
+  background-color: rgba(250, 246, 246, 0.6);
 }
 
 .text2 {

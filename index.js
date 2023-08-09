@@ -28,6 +28,9 @@ allDetails.innerHTML = `
               <h3>Crypto-360</h3>
               <p class="paragraph">
               Crypto360 is a web application to display Crypto currencies from the coin cap API.
+              user can search for a crypto by name/symbol and the search results will be displayed on top of the list. 
+              When a user clicks on a particular crypto, 
+              a details page opens containing details of the selected Crypto currency
               </p>
             </div>
             <div class="languages">
