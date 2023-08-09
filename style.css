@@ -1252,6 +1252,16 @@ form button h5 {
     height: 435px;
     border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  }
+
+  .project:hover,
+  .project1:hover,
+  .project2:hover,
+  .project3:hover,
+  .project4:hover,
+  .project5:hover {
+    transform: scale(1.05);
   }
 
   .project {
