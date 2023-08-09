@@ -1005,7 +1005,7 @@ form button h5 {
   }
 
   .grid-container {
-    background-color: white;
+    background-color:  #fdf9f3;
     margin: auto;
     width: 100%;
   }
@@ -1231,6 +1231,10 @@ form button h5 {
     padding: 12px;
   }
 
+.container-all {
+  background-color: #fdf9f3;
+}
+
   .all-projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1246,6 +1250,8 @@ form button h5 {
   .project4,
   .project5 {
     height: 435px;
+    border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 
   .project {
