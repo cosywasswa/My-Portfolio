@@ -25,18 +25,17 @@ allDetails.innerHTML = `
           <div class="box"></div>
           <div class="works1">
             <div class="works-head">
-              <h3>Save The Planet</h3>
+              <h3>Crypto-360</h3>
               <p class="paragraph">
-              Save the plannet conference-website is a project for a global conference on climate change and Carbon-Zero. 
-              It contains two pages i.e the home page and about me page.
+              Crypto360 is a web application to display Crypto currencies from the coin cap API.
               </p>
             </div>
             <div class="languages">
               <ul class="langul">
+                <li><a href="index.html">React</a></li>
+                <li><a href="index.html">Redux</a></li>
+                <li><a href="index.html">API</a></li>
                 <li><a href="index.html">CSS</a></li>
-                <li><a href="index.html">HTML</a></li>
-                <li><a href="index.html">Bootstrap</a></li>
-                <li><a href="index.html">Ruby</a></li>
               </ul>
             </div>
             <div class="visit">
@@ -50,20 +49,18 @@ allDetails.innerHTML = `
       <div class="all-projects">
         <section class="project">
           <div class="text1">
-            <h2>Proffessional Art Printing Data</h2>
+            <h2>Save the plannet event website</h2>
           </div>
           <div class="text2 none">
             <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has ben the industry's standard dummy text ever
-              since the 1500s
+            SAVE the plannet is an event website that can be customized for any event by submitting events data
             </p>
           </div>
           <div class="projlang none">
             <ul>
               <li><a href="index.html">HTML</a></li>
-              <li><a href="index.html">Bootstrap</a></li>
-              <li><a href="index.html">Ruby</a></li>
+              <li><a href="index.html">CSS</a></li>
+              <li><a href="index.html">JavaScript</a></li>
             </ul>
           </div>
           <div class="seeproject">
@@ -72,111 +69,101 @@ allDetails.innerHTML = `
         </section>
         <section class="project1">
           <div class="text1">
-            <h2>Data Dashboard Healthcare</h2>
+            <h2>API Movies Dashboard</h2>
           </div>
           <div class="text2">
             <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has ben the industry's standard dummy text ever
-              since the 1500s
+            A web Application dashbord to display movies, comments and likes
             </p>
           </div>
           <div class="projlang">
             <ul>
               <li><a href="index.html">HTML</a></li>
-              <li><a href="index.html">Bootstrap</a></li>
-              <li><a href="index.html">Ruby</a></li>
+              <li><a href="index.html">API</a></li>
+              <li><a href="index.html">JavaScript</a></li>
             </ul>
           </div>
-          <div class="seeproject none">
+          <div class="seeproject">
           <button type="button" class="btn-1" btn-open2" id="btn-3" onclick="popupopen2()">See Project</button>
           </div>
         </section>
         <section class="project2">
           <div class="text1">
-            <h2>Proffessional Art Printing Data</h2>
+            <h2>Bookstore React App</h2>
           </div>
           <div class="text2">
             <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has ben the industry's standard dummy text ever
-              since the 1500s
+            Aweb Application that displays A list of Books from an API 
             </p>
           </div>
           <div class="projlang">
             <ul>
-              <li><a href="index.html">HTML</a></li>
-              <li><a href="index.html">Bootstrap</a></li>
-              <li><a href="index.html">Ruby</a></li>
+              <li><a href="index.html">React</a></li>
+              <li><a href="index.html">Sass</a></li>
+              <li><a href="index.html">Redux</a></li>
             </ul>
           </div>
-          <div class="seeproject none">
+          <div class="seeproject">
           <button type="button" class="btn-1" btn-open3" id="btn-4" onclick="popupopen3()">See Project</button>
           </div>
         </section>
         <section class="project3">
           <div class="text1">
-            <h2>Proffessional Art Printing Data More</h2>
+            <h2>Space travellers React Redux App</h2>
           </div>
           <div class="text2">
             <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has ben the industry's standard dummy text ever
-              since the 1500s
+            A SPA web Application for Booking Rockets and Space missions using API data
             </p>
           </div>
           <div class="projlang">
             <ul>
-              <li><a href="index.html">HTML</a></li>
-              <li><a href="index.html">Bootstrap</a></li>
-              <li><a href="index.html">Ruby</a></li>
+              <li><a href="index.html">React</a></li>
+              <li><a href="index.html">Redux</a></li>
+              <li><a href="index.html">API</a></li>
             </ul>
           </div>
-          <div class="seeproject none">
+          <div class="seeproject">
           <button type="button" class="btn-1" btn-open4" id="btn-5" onclick="popupopen4()">See Project</button>
           </div>
         </section>
         <section class="project4">
           <div class="text1">
-            <h2>Data Dashboard Healthcare</h2>
+            <h2>Math Magician React App</h2>
           </div>
           <div class="text2">
             <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has ben the industry's standard dummy text ever
-              since the 1500s
+            Math-Magician Application is a SPA with a calculator for basic calculations, User gets quotes from an API
             </p>
           </div>
           <div class="projlang">
             <ul>
-              <li><a href="index.html">HTML</a></li>
-              <li><a href="index.html">Bootstrap</a></li>
-              <li><a href="index.html">Ruby</a></li>
+              <li><a href="index.html">React</a></li>
+              <li><a href="index.html">CSS</a></li>
+              <li><a href="index.html">API</a></li>
             </ul>
           </div>
-          <div class="seeproject none">
+          <div class="seeproject">
           <button type="button" class="btn-1" btn-open5" id="btn-6" onclick="popupopen5()">See Project</button>
           </div>
         </section>
         <section class="project5">
           <div class="text1">
-            <h2>Data Dashboard Healthcare</h2>
+            <h2>To-Do-List Web Application</h2>
           </div>
           <div class="text2">
             <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has ben the industry's standard dummy text ever
-              since the 1500s
+            A to-do Application for tasks, completed tasks can be checked and deleted as completed
             </p>
           </div>
           <div class="projlang">
             <ul>
               <li><a href="index.html">HTML</a></li>
-              <li><a href="index.html">Bootstrap</a></li>
-              <li><a href="index.html">Ruby</a></li>
+              <li><a href="index.html">JavaScript</a></li>
+              <li><a href="index.html">CSS</a></li>
             </ul>
           </div>
-          <div class="seeproject none">
+          <div class="seeproject">
           <button type="button" class="btn-1" btn-open6" id="btn-7" onclick="popupopen6()">See Project</button>
           </div>
         </section>
@@ -187,34 +174,31 @@ allDetails.innerHTML = `
 const popup = `
   
   <section class="project-details1" id="modal1" >
-              <h2>Multi-Post Stories</h2>
-              <h3 class="h3tittle">Keeping track of hundreds of components website</h3>
+              <h2>CRYPTO-360</h2>
+              <h3 class="h3tittle">Crypto-360</h3>
               <button onclick="popupclose()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
-                  <li>HTML</li>
-                  <li>Bootstrap</li>
-                  <li>Ruby on Rails</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>API</li>
                 </ul>
                 </div>
                 <div class="all-div">
                 <div class="img">
-                <img class="details-img1" src="images/shotsforportfolio/desktop.PNG" alt=" " />
+                <img class="details-img1" src="images/new-snaps/desktop-crypto.png" alt=" " />
                 </div>
                 <div class="leftcontent">
               <p class="project-text">
 
-              Save the plannet conference-website is a project for a global conference on climate change and Carbon-Zero.
-               It contains two pages i.e the home page and about me page.
-              it is a responsive site for both mobile and desktop users
+              Crypto360 is a web application to display Crypto currencies from the coin cap API.
 
-                   <p class="p-elements"> In recent years, the concept of achieving carbon zero or carbon neutrality has gained significant attention in the global effort to combat climate change. 
-                   Carbon zero refers to the state in which the net emissions of carbon dioxide and other greenhouse gases produced by human activities are effectively balanced or offset by carbon removal or reduction methods. 
-                   It is a crucial goal to mitigate the impacts of climate change and create a sustainable future for our planet..</p>
+                   <p class="p-elements"> A user can search for a crypto by name/symbol and the search results will be displayed on top of the list.
+                   When a user clicks on a particular crypto, a details page opens containing details of the selected Crypto currency...</p>
               </p>
             <ul class="clicks">
-              <li><a href="https://cosywasswa.github.io/Capstone-Project1/">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
-              <li><a href="https://github.com/cosywasswa/Capstone-Project1">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
+              <li><a href="https://crypto360.onrender.com">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
+              <li><a href="https://github.com/cosywasswa/Crypto360">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
             </ul>
             </div>
             </div>
@@ -248,40 +232,32 @@ function popupclose() {
 
 const popup1 = `
 <section class="project-details1" id="modal2" >
-              <h2>Proffessional Art Printing Data</h2>
-              <h3 class="h3tittle">Keeping track of hundreds of components website</h3>
+              <h2>Save the planet international conference</h2>
+              <h3 class="h3tittle">Save the planet international conference</h3>
                <button onclick="popupclose1()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
                   <li>HTML</li>
-                  <li>Bootstrap</li>
-                  <li>Ruby on Rails</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
                 </ul>
                 </div>
                 <div class="all-div">
                 <div class="img">
-                <img class="details-img1" src="images/pop-up/Snapshoot Portfolio.svg" alt=" " />
+                <img class="details-img1" src="images/new-snaps/plannet-des.PNG" alt=" " />
                 </div>
                 <div class="leftcontent">
               <p class="project-text">
 
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries,
-                    but also the leap into electronic typesetting,
-                    remaining essential.
+              Save the plannet conference-website is a project for 
+              a global conference on climate change and Carbon-Zero.
 
-                   <p class="p-elements"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries,
-                    but also the leap into electronic typesetting,
-                    remaining essential.</p>
+                   <p class="p-elements"> It contains two pages i.e the home page and about me page.
+                   it is a responsive site for both mobile and desktop users.</p>
               </p>
             <ul class="clicks">
-              <li><a href="index.html">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
-              <li><a href="index.html">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
+              <li><a href="https://cosywasswa.github.io/Capstone-Project1/">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
+              <li><a href="https://github.com/cosywasswa/Capstone-Project1">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
             </ul>
             </div>
             </div>
@@ -313,30 +289,34 @@ function popupclose1() {
 
 const popup2 = `
 <section class="project-details1">
-              <h2>Data Dashboard HealthCare</h2>
+              <h2>VIDVIB Movies</h2>
+              <h3 class="h3tittle">VIDVIB Movies Dashboard</h3>
                <button onclick="popupclose2()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
                   <li>HTML</li>
-                  <li>Bootstrap</li>
-                  <li>Ruby on Rails</li>
+                  <li>API</li>
+                  <li>JavaScript</li>
                 </ul>
                 </div>
-                <img class="details-img1" src="images/pop-up/back2.svg" alt=" " />
-
+                <div class="all-div">
+                <div class="img">
+                <img class="details-img1" src="images/new-snaps/desktop-vidvib.png" alt=" " />
+                </div>
+                <div class="leftcontent">
               <p class="project-text">
 
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries,
-                    but also the leap into electronic typesetting,
-                    remaining essential.
+              VidVib is a web application that displays a list of movies from an API. 
+              Users can like and add comments to a movie of their preference
               </p>
+              <p class="p-elements"> 
+                   It is a responsive web site for both mobile and desktop users.</p>
             <ul class="clicks">
-              <li><a href="index.html">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
-              <li><a href="index.html">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
+              <li><a href="https://vidvib-3aeiihv7h-ticoniq.vercel.app/">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
+              <li><a href="https://github.com/cosywasswa/vidvib">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
             </ul>
+            </div>
+            </div>
           </div>
         </section>
 `;
@@ -365,30 +345,33 @@ function popupclose2() {
 
 const popup3 = `
 <section class="project-details1">
-              <h2>Website Portfolio</h2>
+              <h2>Bookstore Web App</h2>
+              <h3 class="h3tittle">Bookstore Web App</h3>
                <button onclick="popupclose3()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
-                  <li>HTML</li>
-                  <li>Bootstrap</li>
-                  <li>Ruby on Rails</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>API</li>
                 </ul>
                 </div>
-                <img class="details-img1" src="images/pop-up/back4.svg" alt=" " />
-
+                <div class="all-div">
+                <div class="img">
+                <img class="details-img1" src="images/new-snaps/desktop-bookstore.png" alt=" " />
+                </div>
+                <div class="leftcontent">
               <p class="project-text">
 
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries,
-                    but also the leap into electronic typesetting,
-                    remaining essential.
+              The Bookstore is a React and Redux website that allows users to add a book to the list, 
+              displays list of books, 
+              remove a book from the list.
               </p>
             <ul class="clicks">
-              <li><a href="index.html">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
-              <li><a href="index.html">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
+              <li><a href="https://bookstore-app-7x8z.onrender.com/">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
+              <li><a href="https://github.com/cosywasswa/Bookstore-React">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
             </ul>
+            </div>
+            </div>
           </div>
         </section>
 `;
@@ -417,30 +400,34 @@ function popupclose3() {
 
 const popup4 = `
 <section class="project-details1">
-              <h2>Proffessional Art Printing Data</h2>
+              <h2>Space travellers hub</h2>
+              <h3 class="h3tittle">Space travellers hub</h3>
                <button onclick="popupclose4()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
-                  <li>HTML</li>
-                  <li>Bootstrap</li>
-                  <li>Ruby on Rails</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>API</li>
                 </ul>
                 </div>
-                <img class="details-img1" src="images/pop-up/back2.svg" alt=" " />
-
+                <div class="all-div">
+                <div class="img">
+                <img class="details-img1" src="images/new-snaps/desktop-traveller.png" alt=" " />
+                </div>
+                <div class="leftcontent">
               <p class="project-text">
 
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries,
-                    but also the leap into electronic typesetting,
-                    remaining essential.
+              Space-travelers-hub is a web application for a company that provides commercial and 
+              scientific space travel services. 
+              The application will allow users to book rockets and join selected space missions. 
+              Created by Cosmas and Munish.
               </p>
             <ul class="clicks">
-              <li><a href="index.html">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
-              <li><a href="index.html">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
+              <li><a href="https://space-travelers-react.onrender.com/">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
+              <li><a href="https://github.com/cosywasswa/space-travelers-hub">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
             </ul>
+            </div>
+            </div>
           </div>
         </section>
 `;
@@ -469,30 +456,33 @@ function popupclose4() {
 
 const popup5 = `
 <section class="project-details1">
-              <h2>Data Dashboard Healthcare</h2>
+              <h2>Math Magicians</h2>
+              <h3 class="h3tittle">Math Magicians Application</h3>
                <button onclick="popupclose5()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
-                  <li>HTML</li>
-                  <li>Bootstrap</li>
-                  <li>Ruby on Rails</li>
+                  <li>React</li>
+                  <li>Sass</li>
+                  <li>CSS</li>
                 </ul>
                 </div>
-                <img class="details-img1" src="images/pop-up/back3.svg" alt=" " />
-
+                <div class="all-div">
+                <div class="img">
+                <img class="details-img1" src="images/new-snaps/desktop-math.png" alt=" " />
+                </div>
+                <div class="leftcontent">
               <p class="project-text">
 
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries,
-                    but also the leap into electronic typesetting,
-                    remaining essential.
+              "Math magicians" is a website for all fans of mathematics. 
+              It is a Single Page App (SPA) that allows users to: Make simple calculations. 
+              Read a random math-related quote.
               </p>
             <ul class="clicks">
-              <li><a href="index.html">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
-              <li><a href="index.html">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
+              <li><a href="https://math-magician-react-tvvm.onrender.com/">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
+              <li><a href="https://github.com/cosywasswa/Math-magicians">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
             </ul>
+            </div>
+            </div>
           </div>
         </section>
 `;
@@ -520,30 +510,33 @@ function popupclose5() {
 
 const popup6 = `
 <section class="project-details1">
-              <h2>Website Portfolio</h2>
+              <h2>To-Do-List</h2>
+              <h3 class="h3tittle">ToDo-List Application</h3>
                <button onclick="popupclose6()" class="closebutton" id="btn-close">&times;</button>
               <div class="programs">
                 <ul class="programing">
                   <li>HTML</li>
-                  <li>Bootstrap</li>
-                  <li>Ruby on Rails</li>
+                  <li>JavaScript</li>
+                  <li>CSS</li>
                 </ul>
                 </div>
-                <img class="details-img1" src="images/pop-up/back3.svg" alt=" " />
-
+                <div class="all-div">
+                <div class="img">
+                <img class="details-img1" src="images/new-snaps/desktop-todo.png" alt=" " />
+                </div>
+                <div class="leftcontent">
               <p class="project-text">
 
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries,
-                    but also the leap into electronic typesetting,
-                    remaining essential.
+              To-Do-List is an application for adding new To-Do-List tasks by use of array of objects.
+              When a user inputs a task items using the input field, it is added to the existing list. 
+              The user also can removes a task by use of a delete icon and can also updated the task description
               </p>
             <ul class="clicks">
               <li><a href="index.html">See live</a> <img class="live" src="images/pop-up/Icon - live.svg" alt=" " /></li>
               <li><a href="index.html">See source</a><img class="source" src="images/pop-up/Group source.svg" alt=" " /></li>
             </ul>
+            </div>
+            </div>
           </div>
         </section>
 `;
