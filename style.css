@@ -66,7 +66,7 @@ header a {
   flex-grow: 0;
   font-family: "Roboto Serif", serif;
   font-style: normal;
-  text-align: center;
+  text-align: left;
   padding: 10px 0;
 }
 
@@ -82,17 +82,7 @@ header a {
 }
 
 .picture {
-  display: flex;
-  justify-content: center;
-  margin-block: 10px;
-}
-
-.picture img {
-  width: 90%;
-  height: 300px;
-  opacity: 0.9;
-  padding-bottom: 20px;
-  border-radius: 20px;
+  display: none;
 }
 
 nav {
@@ -332,6 +322,10 @@ nav {
   background-color: rgba(255, 255, 255, 0.24);
 }
 
+.languages {
+  width: 80%;
+}
+
 .languages .langul a {
   text-decoration: none;
   border: 1px solid #8993a4;
@@ -341,8 +335,8 @@ nav {
 
 .box {
   width: 100%;
-  background-image: url(images/new-snaps/crypto-mob.PNG);
-  height: 580px;
+  background-image: url(images/new-snaps/tablet-white-crypto.png);
+  height: 420px;
   background-repeat: no-repeat;
   background-size: 330px;
   background-position: center;
@@ -516,7 +510,7 @@ body.active-popup .social-icons3 {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(./images/new-snaps/plannet-mob.PNG);
+    url(./images/new-snaps/tablet-white-plannet.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
@@ -532,7 +526,7 @@ body.active-popup .social-icons3 {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(./images/new-snaps/vidvib-mob.PNG);
+    url(./images/new-snaps/tablet-white-vidvib.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
@@ -548,11 +542,44 @@ body.active-popup .social-icons3 {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(./images/back4.svg);
+    url(./images/new-snaps/tablet-white-book.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
 }
 
-.project3,
-.project4,
+.project3 {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  background-image:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./images/new-snaps/tablet-white-travel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.project4 {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  background-image:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./images/new-snaps/tablet-white-magician.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
 .project5 {
   width: 90%;
   height: auto;
@@ -563,19 +590,24 @@ body.active-popup .social-icons3 {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(./images/Img\ Placeholderproj.svg);
+    url(./images/new-snaps/tablet-white-todo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
 }
 
 .text1 {
   font-family: "Crete Round", serif;
   color: #fff;
-  padding: 50px 0 0 10px;
-  font-size: 20px;
+  padding: 150px 10px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .text2 {
   font-family: "Inter", sans-serif;
   color: #fff;
+  text-align: left;
   margin-bottom: 10px;
   padding: 10px;
 }
@@ -853,9 +885,10 @@ form button h5 {
   .projlang ul li a {
     text-decoration: none;
     border: 1px solid #8993a4;
-    color: #fff;
+    color: #bd49b7;
     padding: 10px 12px 10px 12px;
-    background-color: rgba(255, 255, 255, 0.24);
+    background-color: rgba(80, 3, 3, 0.24);
+    z-index: 10;
   }
 
   .programing li {
@@ -940,6 +973,7 @@ form button h5 {
   }
 
   .picture {
+    display: block;
     padding-left: 40px;
   }
 
@@ -983,7 +1017,7 @@ form button h5 {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 90px 0 90px 70px;
+    padding: 50px 0 50px 70px;
     justify-content: space-between;
   }
 
@@ -999,16 +1033,15 @@ form button h5 {
   }
 
   .box {
-    width: 270%;
-    background-image: url(images/new-snaps/crypto-des.PNG);
-    height: 722px;
+    width: 100%;
+    background-image: url(images/new-snaps/desktop-crypto.png);
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .works1 {
     width: 100%;
-    height: 60%;
+    height: 70%;
   }
 
   .works-head h3 {
@@ -1031,11 +1064,14 @@ form button h5 {
   }
 
   .projlang {
+    display: none;
     padding-left: 10px;
+    position: relative;
+    bottom: 0;
   }
 
   .languages {
-    width: 50%;
+    width: 30%;
   }
 
   .languages .langul a {
@@ -1168,6 +1204,10 @@ form button h5 {
     height: 50%;
   }
 
+  .programs {
+    margin-top: 40px;
+  }
+
   .programing {
     display: flex;
     flex-direction: row;
@@ -1193,10 +1233,10 @@ form button h5 {
 
   .all-projects {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
     width: 90%;
-    margin: 30px auto;
-    align-items: center;
+    gap: 30px;
+    margin: auto;
   }
 
   .project,
@@ -1205,40 +1245,55 @@ form button h5 {
   .project3,
   .project4,
   .project5 {
-    width: 90%;
     height: 435px;
   }
 
   .project {
+    width: 100%;
     position: relative;
-    background-image: url(images/new-snaps/plannet-mob.PNG);
+    background-image: url(images/new-snaps/tablet-white-plannet.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .project1 {
-    background-image: url(images/new-snaps/vidvib-mob.PNG);
+    width: 100%;
+    position: relative;
+    background-image: url(images/new-snaps/tablet-white-vidvib.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 375px;
   }
 
   .project2 {
-    background-image: url(images/back3.svg);
+    width: 100%;
+    position: relative;
+    background-image: url(images/new-snaps/tablet-white-book.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .project3 {
-    background-image: url(images/back4.svg);
+    width: 100%;
+    position: relative;
+    background-image: url(images/new-snaps/tablet-white-travel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .project4 {
-    background-image: url(images/back2.svg);
+    width: 100%;
+    position: relative;
+    background-image: url(images/new-snaps/tablet-white-magician.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .project5 {
-    background-image: url(images/back3.svg);
+    width: 100%;
+    position: relative;
+    background-image: url(images/new-snaps/tablet-white-todo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .none {
@@ -1256,7 +1311,18 @@ form button h5 {
   }
 
   .text1 {
-    padding-top: 178px;
+    padding: 178px 10px 0 10px;
+    text-align: center;
+    color: #736899;
+  }
+
+  .text1 h2 {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .text2 {
+    display: none;
   }
 
   .about-me .details {
