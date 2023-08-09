@@ -186,7 +186,7 @@ const popup = `
                 </div>
                 <div class="all-div">
                 <div class="img">
-                <img class="details-img1" src="images/new-snaps/crypto-des.PNG" alt=" " />
+                <img class="details-img1" src="images/new-snaps/desktop-crypto.png" alt=" " />
                 </div>
                 <div class="leftcontent">
               <p class="project-text">
