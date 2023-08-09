@@ -1005,7 +1005,7 @@ form button h5 {
   }
 
   .grid-container {
-    background-color:  #fdf9f3;
+    background-color: #fdf9f3;
     margin: auto;
     width: 100%;
   }
@@ -1231,9 +1231,9 @@ form button h5 {
     padding: 12px;
   }
 
-.container-all {
-  background-color: #fdf9f3;
-}
+  .container-all {
+    background-color: #fdf9f3;
+  }
 
   .all-projects {
     display: grid;
@@ -1251,17 +1251,8 @@ form button h5 {
   .project5 {
     height: 435px;
     border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-  }
-
-  .project:hover,
-  .project1:hover,
-  .project2:hover,
-  .project3:hover,
-  .project4:hover,
-  .project5:hover {
-    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
   }
 
   .project {
@@ -1310,6 +1301,15 @@ form button h5 {
     background-image: url(images/new-snaps/tablet-white-todo.png);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .project:hover,
+  .project1:hover,
+  .project2:hover,
+  .project3:hover,
+  .project4:hover,
+  .project5:hover {
+    transform: scale(1.05);
   }
 
   .none {
